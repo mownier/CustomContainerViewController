@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		DF2040A61A1C86B2009BBD82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2040A51A1C86B2009BBD82 /* main.m */; };
 		DF2040A91A1C86B2009BBD82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2040A81A1C86B2009BBD82 /* AppDelegate.m */; };
-		DF2040AC1A1C86B2009BBD82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2040AB1A1C86B2009BBD82 /* ViewController.m */; };
-		DF2040AF1A1C86B2009BBD82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2040AD1A1C86B2009BBD82 /* Main.storyboard */; };
+		DF2040AC1A1C86B2009BBD82 /* Content1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2040AB1A1C86B2009BBD82 /* Content1ViewController.m */; };
 		DF2040B11A1C86B2009BBD82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2040B01A1C86B2009BBD82 /* Images.xcassets */; };
 		DF2040B41A1C86B2009BBD82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF2040B21A1C86B2009BBD82 /* LaunchScreen.xib */; };
 		DF2040C01A1C86B3009BBD82 /* CustomContainerViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2040BF1A1C86B3009BBD82 /* CustomContainerViewControllerTests.m */; };
+		DF2040CF1A1C87D7009BBD82 /* Content2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2040CE1A1C87D7009BBD82 /* Content2ViewController.m */; };
+		DF2040D21A1C87EE009BBD82 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2040D11A1C87EE009BBD82 /* ContainerViewController.m */; };
+		DF2040D61A1C8E18009BBD82 /* MenuBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2040D51A1C8E18009BBD82 /* MenuBar.m */; };
+		DF2087A01A1D883200A690E3 /* MenuBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DF20879F1A1D883200A690E3 /* MenuBarItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,21 @@
 		DF2040A51A1C86B2009BBD82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF2040A71A1C86B2009BBD82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF2040A81A1C86B2009BBD82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DF2040AA1A1C86B2009BBD82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DF2040AB1A1C86B2009BBD82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DF2040AE1A1C86B2009BBD82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF2040AA1A1C86B2009BBD82 /* Content1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Content1ViewController.h; sourceTree = "<group>"; };
+		DF2040AB1A1C86B2009BBD82 /* Content1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Content1ViewController.m; sourceTree = "<group>"; };
 		DF2040B01A1C86B2009BBD82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DF2040B31A1C86B2009BBD82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DF2040B91A1C86B3009BBD82 /* CustomContainerViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomContainerViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF2040BE1A1C86B3009BBD82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF2040BF1A1C86B3009BBD82 /* CustomContainerViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomContainerViewControllerTests.m; sourceTree = "<group>"; };
+		DF2040CD1A1C87D7009BBD82 /* Content2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Content2ViewController.h; sourceTree = "<group>"; };
+		DF2040CE1A1C87D7009BBD82 /* Content2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Content2ViewController.m; sourceTree = "<group>"; };
+		DF2040D01A1C87EE009BBD82 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		DF2040D11A1C87EE009BBD82 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		DF2040D41A1C8E18009BBD82 /* MenuBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuBar.h; sourceTree = "<group>"; };
+		DF2040D51A1C8E18009BBD82 /* MenuBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuBar.m; sourceTree = "<group>"; };
+		DF20879E1A1D883200A690E3 /* MenuBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuBarItem.h; sourceTree = "<group>"; };
+		DF20879F1A1D883200A690E3 /* MenuBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuBarItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +91,11 @@
 		DF2040A21A1C86B2009BBD82 /* CustomContainerViewController */ = {
 			isa = PBXGroup;
 			children = (
-				DF2040A71A1C86B2009BBD82 /* AppDelegate.h */,
-				DF2040A81A1C86B2009BBD82 /* AppDelegate.m */,
-				DF2040AA1A1C86B2009BBD82 /* ViewController.h */,
-				DF2040AB1A1C86B2009BBD82 /* ViewController.m */,
-				DF2040AD1A1C86B2009BBD82 /* Main.storyboard */,
-				DF2040B01A1C86B2009BBD82 /* Images.xcassets */,
-				DF2040B21A1C86B2009BBD82 /* LaunchScreen.xib */,
+				DF2040CA1A1C86F6009BBD82 /* AppDelegate */,
+				DF2040C91A1C86E7009BBD82 /* Controllers */,
+				DF2040CB1A1C8701009BBD82 /* Resources */,
 				DF2040A31A1C86B2009BBD82 /* Supporting Files */,
+				DF2040D31A1C8D08009BBD82 /* Views */,
 			);
 			path = CustomContainerViewController;
 			sourceTree = "<group>";
@@ -117,6 +124,56 @@
 				DF2040BE1A1C86B3009BBD82 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF2040C91A1C86E7009BBD82 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DF2040AA1A1C86B2009BBD82 /* Content1ViewController.h */,
+				DF2040AB1A1C86B2009BBD82 /* Content1ViewController.m */,
+				DF2040CD1A1C87D7009BBD82 /* Content2ViewController.h */,
+				DF2040CE1A1C87D7009BBD82 /* Content2ViewController.m */,
+				DF2040D01A1C87EE009BBD82 /* ContainerViewController.h */,
+				DF2040D11A1C87EE009BBD82 /* ContainerViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DF2040CA1A1C86F6009BBD82 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DF2040A71A1C86B2009BBD82 /* AppDelegate.h */,
+				DF2040A81A1C86B2009BBD82 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		DF2040CB1A1C8701009BBD82 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF2040CC1A1C8714009BBD82 /* Xibs */,
+				DF2040B01A1C86B2009BBD82 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DF2040CC1A1C8714009BBD82 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				DF2040B21A1C86B2009BBD82 /* LaunchScreen.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+		DF2040D31A1C8D08009BBD82 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF2040D41A1C8E18009BBD82 /* MenuBar.h */,
+				DF2040D51A1C8E18009BBD82 /* MenuBar.m */,
+				DF20879E1A1D883200A690E3 /* MenuBarItem.h */,
+				DF20879F1A1D883200A690E3 /* MenuBarItem.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +256,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF2040AF1A1C86B2009BBD82 /* Main.storyboard in Resources */,
 				DF2040B41A1C86B2009BBD82 /* LaunchScreen.xib in Resources */,
 				DF2040B11A1C86B2009BBD82 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF2040AC1A1C86B2009BBD82 /* ViewController.m in Sources */,
+				DF2040AC1A1C86B2009BBD82 /* Content1ViewController.m in Sources */,
 				DF2040A91A1C86B2009BBD82 /* AppDelegate.m in Sources */,
 				DF2040A61A1C86B2009BBD82 /* main.m in Sources */,
+				DF2087A01A1D883200A690E3 /* MenuBarItem.m in Sources */,
+				DF2040CF1A1C87D7009BBD82 /* Content2ViewController.m in Sources */,
+				DF2040D61A1C8E18009BBD82 /* MenuBar.m in Sources */,
+				DF2040D21A1C87EE009BBD82 /* ContainerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +304,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DF2040AD1A1C86B2009BBD82 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF2040AE1A1C86B2009BBD82 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DF2040B21A1C86B2009BBD82 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,6 +464,7 @@
 				DF2040C51A1C86B3009BBD82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF2040C61A1C86B3009BBD82 /* Build configuration list for PBXNativeTarget "CustomContainerViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +473,7 @@
 				DF2040C81A1C86B3009BBD82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
